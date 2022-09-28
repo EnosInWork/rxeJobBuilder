@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS `jobbuilder` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `label` varchar(50) NOT NULL,
+  `society` varchar(50) NOT NULL,
+  `posboss` varchar(255) NOT NULL,
+  `posveh` varchar(255) NOT NULL,
+  `poscoffre` varchar(255) NOT NULL,
+  `posspawncar` varchar(255) NOT NULL,
+  `nameitemrecolte` varchar(50) NOT NULL,
+  `labelitemrecolte` varchar(50) NOT NULL,
+  `posrecolte` varchar(255) NOT NULL,
+  `nameitemtraitement` varchar(50) NOT NULL,
+  `labelitemtraitement` varchar(50) NOT NULL,
+  `postraitement` varchar(255) NOT NULL,
+  `vehingarage` varchar(255) NOT NULL,
+  `posvente` varchar(255) NOT NULL,
+  `prixvente` int(50) NOT NULL,
+  `blip` longtext NOT NULL,
+  `marker` longtext NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
